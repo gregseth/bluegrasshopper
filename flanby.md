@@ -10,7 +10,7 @@ ce qu'il se passe quand une entreprise, ou une personnalité, décide d'employer
 la force brute en lieu et place du dialogue pour « supprimer », quelque-chose de
 gênant à son sujet sur internet.
 
-![L'effet Flanby](images/flanby-effect.jpg)
+![L'effet Flanby](static/images/flanby-effect.jpg)
 
 
   [1]: http://fr.wikipedia.org/wiki/Effet_Streisand  
