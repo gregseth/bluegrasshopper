@@ -1,7 +1,7 @@
 Title:      The Flanby effect
 Date:       2013-02-17
 Tags:       geek, streisand, flanby, informatique
-Slug:       inauguration-bepo-style
+Slug:       l-effet-flanby
 Category:   Geek
 
 J'ai trouvé, il y a quelques temps déjà, une planche de BD décrivant parfaitement
