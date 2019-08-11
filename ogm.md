@@ -13,5 +13,5 @@ jour nouveau.
 Bonne lecture.
 
 
-  [1]: static/pdf/ogm.pdf
+  [1]: pdf/ogm.pdf
 
