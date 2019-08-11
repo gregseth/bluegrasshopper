@@ -29,13 +29,13 @@ $$ α = 2.\arctan\left(\frac{l}{2f}\right) $$
 
 Il en découle que plus la focale est grande, plus la portion de paysage capturée est petite (téléobjectif) et, inversement, plus la focale est courte plus la portion capturée est grande (grand angle).
 
-![angle de champ](images/aov.png)
+![angle de champ](/images/aov.png)
 
 Une autre illustration de l'effet de l'angle de champ avec cette vidéo :
 
 <div style="text-align: center">
 <video width="568" height="640" controls loop>
-  <source src="images/focal-vs-fov.mp4" type="video/mp4">
+  <source src="/images/focal-vs-fov.mp4" type="video/mp4">
 </video>
 </div>
 
@@ -62,7 +62,7 @@ $$ \frac{24}{14.9}=\frac{36}{22.3}\approx 1.6 $$
 
 Pour obtenir le même cadrage avec un capteur full frame qu'avec un APS-C, il faut donc un objectif avec une focale 1.6 fois plus grande (dans l'exemple $50 \times 1.6 = 80$). C'est cette valeur qu'on appelle « crop-factor » et qui sert à calculer la « focal équivalente 24x36 », c'est-à-dire quelle focale on mettrait sur un appareil plein format pour obtenir le même cadrage qu'avec un autre couple taille de capteur/focale.
 
-![crop-factor](images/crop-factor.png)
+![crop-factor](/images/crop-factor.png)
 
 Ci-dessous quelques valeurs pour des tailles de capteur courantes :
 
@@ -140,7 +140,7 @@ Attention les termes stop ou click peuvent être à l'origine de confusion lors 
 
 La profondeur de champ est la taille de la zone nette d'une image. Cette distance dépend de trois paramètres : la distance par rapport au sujet $d$, la focale de l'objectif $f$ et le nombre d'ouverture ƒ/$N$. Elle augmente avec la distance (plus le sujet est loin, plus la profondeur de champ est grande – les autres paramètres étant fixés), diminue avec la focale (plus vous zoommez, plus la profondeur de champ est courte) et diminue avec l'ouverture (plus vous ouvrez, donc plus le nombre d'ouverture – par exemple ƒ/2.8 – est petit, plus la profondeur de champ est courte).
 
-![profondeur de champ](images/dof.png)
+![profondeur de champ](/images/dof.png)
 
 ### Cercle de confusion
 
