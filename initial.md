@@ -51,3 +51,6 @@ avec cette disposition de clavier.
    [Bépo]:      http://fr.wikipedia.org/wiki/Bépo
    [1]:         http://www.bepo.fr
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNjYwMjQxNDAxXX0=
+-->
