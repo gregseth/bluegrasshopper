@@ -15,3 +15,6 @@ Bonne lecture.
 
   [1]: /pdf/ogm.pdf
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTU0NTc5MDM1NV19
+-->
