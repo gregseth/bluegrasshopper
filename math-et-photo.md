@@ -209,3 +209,6 @@ $$ s_\infty' = f + \frac{f^2}{x} $$
 
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEwOTkzNjE4NzRdfQ==
+-->
