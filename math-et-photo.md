@@ -52,6 +52,8 @@ On notera à quel point l'aumentation de focale réduit l'angle de champ (on voi
 
 Le cercle image est ni plus ni moins que l'image formée sur le plan focal par les rayons lumineux passant dans l'objectif. Comme ce dernier est circulaire, l'image formée est un cerle. L'image formée est inversée et légèrement plus sombre sur les bords. En principe, la zone du capteur est totalement inclue dans le cercle image. Si la zone du capteur est trop proche du bord du cercle image, il capture en partie la zone plus sombre du cercle image, c'est ce qu'on appelle le vignettage. Enfin pour certains objetifs très grand angle (fisheye), c'est un parti pris de faire en sorte que tout le capteur ne soit pas exposé, voire que le cercle image soit totalement inclus dans la zone du capteur.
 
+![crop-factor](images/crop-factor.png)
+
 #### Crop-factor
 
 Pour un objectif donné le cercle image sera toujours le même. Ce qui peut changer, c'est la taille physique de la surface sensible (pellicule ou capteur), qui va déterminer quelle portion du cercle image constituera la photo finale.
@@ -61,8 +63,6 @@ Comme montré sur le schéma ci-dessous un capteur Full Frame (24mm x 36mm) pren
 $$ \frac{24}{14.9}=\frac{36}{22.3}\approx 1.6 $$
 
 Pour obtenir le même cadrage avec un capteur full frame qu'avec un APS-C, il faut donc un objectif avec une focale 1.6 fois plus grande (dans l'exemple $50 \times 1.6 = 80$). C'est cette valeur qu'on appelle « crop-factor » et qui sert à calculer la « focal équivalente 24x36 », c'est-à-dire quelle focale on mettrait sur un appareil plein format pour obtenir le même cadrage qu'avec un autre couple taille de capteur/focale.
-
-![crop-factor](/images/crop-factor.png)
 
 Ci-dessous quelques valeurs pour des tailles de capteur courantes :
 
@@ -185,23 +185,45 @@ Le grandissement (parfois appelé grossisement) $γ$ est le rapport entre la tai
 
 $$ γ=\frac{t_i}{t_o} $$
 
-Il peut être exprimé en fonction de la distance de mise au point $s$ et de la focale $f$ par la relation :
+Il peut être exprimé en fonction de la distance de mise au point $s$ et de la focale $f$ par la relation (et sa conjuguée) :
 
-$$ γ=\frac{f}{s-f} $$
+$$ γ=\frac{f}{s-f} \quad \Leftrightarrow \quad s=\frac{γ+1}{γ}f $$
 
 Il est d'usage de parler de macrophotographie quand le grandissement est d'au moins 1 et de proxy pour les rapports compris entre 1 et 1/10.
 
-### Distance de mise au point
+### Bague allonge
 
 Pour faire de la macro, on peut utiliser un objectif dédié (qui permet de se rapprocher du sujet), ou utiliser un tube allonge avec un objectif standard.
 
+Si un objectif a un grandissement de $γ$ et une focale de $f$, alors une bague allonge de $x$ donnera un grandissement $γ'$ :
+
+$$ γ'=γ+\frac{x}{f} $$
+
 Si $s_0$ et $s_\infty$ sont respectivement les distances minimum et maximum de mise au point de l'objectif de base de focale $f$, alors, avec un tube allonge d'une longueur $x$, les nouvelles distances $s_0'$ et $s_\infty'$ sont données par :
 
-$$ s_0' = \frac{(s_0-x)f^2 + xs_0f}{f^2 - xf + xs_0} $$
+<!-- $$ s_0' = \frac{(s_0-x)f^2 + xs_0f}{f^2 - xf + xs_0} $$ -->
+$$ s_0' = f\frac{(1+γ')^2}{γ'} $$
 
-$$ s_\infty' = f + \frac{f^2}{x} $$
+$$ s_\infty' = f\left(1 + \frac{f}{x}\right) $$
 
 
+### Bonnettte
+
+La bonnette est une lentille qui se fixe au bout de l'objectif et qui agit comme une loupe. Sa puissance s'exprime en dioptries, qui est l'inverse de sa distance focale exprimée en mètres.
+
+La bonnette à pour effet de faire perdre la mise au point à l'infini. La nouvelle distance de mise au point max $s_\infty'$ ne dépend que de la puissance $D$ de la bonnette et vaut :
+
+$$ s_\infty' = \frac{1}{D} $$
+
+La nouvelle distance minimum de mise au point $s_0'$ dépend quant à elle de la distance minimum de l'objectif nu $s_0$. La relation (et sa conjugée) est :
+
+$$ s_0' = \frac{s_0}{Ds_0+1}  \quad \Leftrightarrow \quad  s_0 = \frac{s_0'}{1-Ds_0'} $$
+
+Les grandissement à distance de mise au poin maximum $γ_\infty'$ et à distance minimum $γ_0'$
+
+$$ γ_\infty' = fD $$
+
+$$ γ_0' = γ_0(Ds_0+1) $$
 
   [coc]: https://fr.wikipedia.org/wiki/Cercle_de_confusion
   [dof]: https://photo.gregseth.net/dof
