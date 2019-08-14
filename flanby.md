@@ -15,6 +15,4 @@ pour « supprimer », quelque-chose de gênant à son sujet sur internet.
 
   [1]: http://www.cyroul.com/reseaux-sociaux/dis-papy-cest-quoi-leffet-flamby/
   [2]: http://fr.wikipedia.org/wiki/Effet_Streisand
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDk5MjA0NDhdfQ==
--->
+

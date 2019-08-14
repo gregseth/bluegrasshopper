@@ -206,9 +206,3 @@ $$ s_\infty' = f + \frac{f^2}{x} $$
   [coc]: https://fr.wikipedia.org/wiki/Cercle_de_confusion
   [dof]: https://photo.gregseth.net/dof
 
-
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTkzNjE4NzRdfQ==
--->

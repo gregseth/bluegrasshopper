@@ -97,6 +97,4 @@ en recommande vivement le visionnage.
   [3]: http://standblog.org/blog/post/2009/08/05/S-attaquer-aux-tabous-pour-devenir-%C3%A9colo#c10767
   [4]: http://standblog.org/blog/post/2009/08/05/S-attaquer-aux-tabous-pour-devenir-%C3%A9colo#c10828
   [5]: http://podcast.paristech.fr/groups/mines/wiki/8f866/Energie_et_changement_climatique_de_JeanMarc_Jancovici.html
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbODE5NjY3OTY4XX0=
--->
+

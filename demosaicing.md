@@ -42,12 +42,3 @@ Et voici la comparaison avant/après :
   [4]: http://rawtherapee.com/
   [5]: https://pix.gregseth.net/0/582b842b.png
 
-
-
-
-
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNTg0MzI0NF19
--->
