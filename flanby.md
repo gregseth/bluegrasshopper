@@ -1,4 +1,4 @@
-Title:      The Flanby effect
+Title:      L'effet Flanby
 Date:       2013-02-17
 Tags:       geek, streisand, flanby, informatique
 Slug:       l-effet-flanby
